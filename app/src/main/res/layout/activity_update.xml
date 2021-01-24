@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/updatedata">
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="15dp"
+        android:text="NIM" />
+    <EditText
+        android:id="@+id/nim_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1">
+        <requestFocus />
+    </EditText>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nim_update"
+        android:layout_below="@+id/nim_update"
+        android:layout_marginTop="10dp"
+        android:text="Nama Peminjam" />
+    <EditText
+        android:id="@+id/nama_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/nama_update"
+        android:layout_below="@+id/nama_update"
+        android:layout_marginTop="10dp"
+        android:text="Nama Buku" />
+    <EditText
+        android:id="@+id/buku_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buku_update"
+        android:layout_below="@+id/buku_update"
+        android:layout_marginTop="10dp"
+        android:text="Tanggal Pinjam" />
+    <EditText
+        android:id="@+id/tglpinjam_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tglpinjam_update"
+        android:layout_below="@+id/tglpinjam_update"
+        android:layout_marginTop="10dp"
+        android:text="Tanggal Kembali" />
+    <EditText
+        android:id="@+id/tglkembali_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_below="@+id/textView5" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/simpan_update"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:layout_marginLeft="50dp"
+            android:text="UPDATE"
+            android:textSize="50px"
+            android:textColor="@color/white"
+            android:background="@drawable/buttontrue"/>
+        <Button
+            android:id="@+id/kembali_update"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="580dp"
+            android:layout_marginLeft="50dp"
+            android:text="KEMBALI"
+            android:textColor="@color/white"
+            android:textSize="50px"
+            android:background="@drawable/buttontrue"/>
+    </GridLayout>
+
+</RelativeLayout>
