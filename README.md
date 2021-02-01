@@ -11,4 +11,4 @@ Aplikasi perpusku berisi fitur antara lain :
 
 Untuk dapat melihat hasil Screenshot aplikasi perpusku, dapat melihat di Folder Screenshot Hasil Aplikasi.
 
-![1 Icon Aplikasi](https://user-images.githubusercontent.com/48756686/106460321-bdc3e900-64c5-11eb-8bf1-cd16122fc1ef.jpg)
+
