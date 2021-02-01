@@ -9,6 +9,10 @@ Aplikasi perpusku berisi fitur antara lain :
 - Fitur Menu Lihat Data Peminjam : Pada menu lihat data peminjam, kita dapat melihat daftar peminjam dan melihat secara detail buku yang dipinjam, tanggal pinjam, dan tanggal pengembalian.
 - Fitur Menu Maps : didalam menu maps, kita bisa melihat lokasi perpusku.
 
+Hasil Tampilan Aplikasi Perpusku
+- GIF
+![GIF Hasil Aplikasi](https://user-images.githubusercontent.com/48756686/106462509-c8cc4880-64c8-11eb-8627-a6652fede524.gif)
+
 Untuk dapat melihat hasil Screenshot aplikasi perpusku, dapat melihat di Folder Screenshot Hasil Aplikasi.
 
 
